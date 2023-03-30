@@ -21,7 +21,7 @@ import com.SpringBootApp.Models.Employee;
 import com.SpringBootApp.Service.EmployeeService;
 
 @RestController
-@CrossOrigin("http://localhost:3000")
+@CrossOrigin("https://amitkumar007-fullstack.netlify.app/")
 public class Controller {
 	@Autowired
 	private EmployeeService service;
